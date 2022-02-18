@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script type="application/javascript">
+        /*
+        Utvid oppgave 3 ved å gi et farge til teksten som vises på blank side.
+         */
+        function toNewPageColor(inputText){
+            document.write(inputText.fontcolor("blue"));
+        }
+    </script>
+</head>
+<body>
+<h2> Oppgave 6 </h2>
+<label for="oppg6"> Writ your text: </label>
+<input id="oppg6" type="text" onchange="toNewPageColor(this.value)">
+</body>
+</html>

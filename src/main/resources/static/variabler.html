@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script type="text/javascript">
+        //Mac: IntelliJ IDEA->Preferences->Languages and Frameworks->JavaScript
+        //Mac: IntelliJ IDEA-> Preferences->Editor->Inspections,Søk så på "typos" og ta vekk haken under Spelling->Typos.
+
+        //bruker const foran variable når variabelen er konstant altså skal ikke endres
+        const navn = "Line Jensen";
+        const alder = 23;
+        const myndig = true;
+        const hoyde = 1.88;
+        //bruker let når vi skal endre på stringen
+        let ut = navn + " " + alder;
+        if (myndig){
+            ut += "er myndig ";
+        }
+        else {
+            ut += "er ikke myndig ";
+        }
+        ut += " og har en høyde på " + hoyde;
+
+        //Kan skrive på forskjellige møter
+        alert(ut); //kommer som boks
+        document.write(ut); //kommer ut som dokument
+        console.log(ut); //kan se den i Console, flerverktøy og utviklerverktøy
+    </script>
+</head>
+<body>
+
+</body>
+</html>
